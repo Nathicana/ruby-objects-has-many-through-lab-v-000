@@ -11,9 +11,7 @@ end
 def song(song)
     @songs << song
   end
-def songs 
-  @songs 
-end
+
 
 def artists
     @artists.collect do |artist|
