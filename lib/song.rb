@@ -8,7 +8,7 @@ def initialize(name, genre)
 
  end
 
-end
+
 
  
 
