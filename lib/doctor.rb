@@ -8,6 +8,8 @@ def initialize(name)
 end
 
 
-
+def add_appointments(appointment)
+  @songs << song
+  song.artist = self
 
 end
