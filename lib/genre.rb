@@ -25,4 +25,3 @@ def artists
       song.artist
   end
 end
-end
