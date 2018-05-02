@@ -7,6 +7,9 @@ def initialize(date, doctor)
   @doctor = doctor
 end
 
+def add_appointment(appointment)
+  
+
 def doctor 
   @doctor
 end
