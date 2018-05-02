@@ -5,6 +5,7 @@ attr_accessor :name, :appointments
 def initialize(name)
   @name = name
   @appointments = []
+  @patients = []
 end
 
 
