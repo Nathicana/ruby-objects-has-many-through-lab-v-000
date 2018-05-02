@@ -9,7 +9,7 @@ end
 
 
 def add_appointments(appointment)
-  @songs << song
-  song.artist = self
+  @appointments << appointment
+  appointment.doctor = self
 
 end
