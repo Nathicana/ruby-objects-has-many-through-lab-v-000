@@ -26,3 +26,4 @@ def artists
   end
 end
 end
+
