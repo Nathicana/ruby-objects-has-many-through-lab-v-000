@@ -8,9 +8,6 @@ def initialize(name)
   @artists = []
 end
 
- def add_song(song)
-    @songs << song
-  end
  
   
   
