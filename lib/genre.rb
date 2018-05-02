@@ -21,9 +21,9 @@ end
 
 
 def artists
-    @songs.collect do |song|
-      song.artist
+    @songs.collect do |song| song.artist
   end
 end
 end
 
+self.songs.collect {|song| song.artist}
