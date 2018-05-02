@@ -13,7 +13,7 @@ def add_song(song)
   
 end
 
-def song 
+def songs
   @songs 
 end
 
