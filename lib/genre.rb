@@ -8,7 +8,7 @@ def initialize(name)
   @artists = []
 end
 
-def songs
+def songs(song)
     @songs << song
   end
 
