@@ -15,7 +15,7 @@ def add_appointment(appointment)
 end
 
 def doctors
-    @songs.collect do |song|
+    @app.collect do |song|
       song.artist
     end
   end
