@@ -12,8 +12,8 @@ def songs
 end
 
 def artists
-    @songs.collect do |song|
-      song.artist
+    @artists.collect do |artist|
+      artist.song
     end
   end
 
