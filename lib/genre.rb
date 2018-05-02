@@ -10,6 +10,7 @@ end
 
 def add_song(song)
   @songs << song
+  song.
 end
   
   def add_artist(artist)
