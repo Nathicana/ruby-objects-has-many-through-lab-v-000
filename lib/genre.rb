@@ -13,7 +13,7 @@ def songs(song)
   end
   
 
-def song 
+def songs 
   @songs 
 end
 
