@@ -8,7 +8,7 @@ def initialize(date, doctor)
 end
 
 def doctor 
-  
+  appointment.doctor
 end
 
 end
