@@ -14,7 +14,11 @@ def add_appointment(appointment)
   appointment.patient = self
 end
 
-
+def doctors
+    @songs.collect do |song|
+      song.artist
+    end
+  end
 
 
 end
