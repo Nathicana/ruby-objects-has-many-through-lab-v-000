@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 
-def add_appointments(appointment)
+def add_appointment(appointment)
   @appointments << appointment
   appointment.doctor = self
 end
