@@ -8,6 +8,7 @@ def initialize(date, doctor)
 end
 
 def doctor 
+  
 end
 
 end
