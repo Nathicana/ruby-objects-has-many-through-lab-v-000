@@ -13,4 +13,9 @@ def add_appointment(appointment)
   appointment.doctor = self
 end
 
+
+def patients 
+  @appointment.collect do |appointment 
+  appointment.doctor
+
 end
