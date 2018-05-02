@@ -16,8 +16,8 @@ end
 
 
 def patients 
-  @patients.collect do |patient|
-  patient.appointment
+    @appointments.collect do |appointment|
+      appointment.patient
 end
 end
 
