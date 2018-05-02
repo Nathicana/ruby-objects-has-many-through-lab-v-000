@@ -4,18 +4,11 @@ attr_accessor :name, :artists, :songs
 
 def initialize(name)
   @name = name 
-  @songs = [] 
-  @artists = []
+  @songs = song
+  @artists = artists
 end
 
-def add_song(song)
-  @songs << song
-  song.genre = self
-end
-  
-  def add_artist(artist)
-  @artists << artist 
-end
+
   
   
 def songs 
