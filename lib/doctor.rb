@@ -16,6 +16,6 @@ end
 
 def patients 
   @appointment.collect do |appointment 
-  appointment.doctor
+  appointment.patients
 
 end
