@@ -6,8 +6,7 @@ def initialize(name, genre)
   @name = name
   @genre = genre
   
-  def add_song(song)
-   @songs << song 
+ 
  end
 
 end
